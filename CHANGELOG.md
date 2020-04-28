@@ -11,7 +11,7 @@
 - Snowflake now uses "show terse objects" to build the relations cache instead of selecting from the information schema ([#2174](https://github.com/fishtown-analytics/dbt/issues/2174), [#2322](https://github.com/fishtown-analytics/dbt/pull/2322))
 - Snowflake now uses "describe table" to get the columns in a relation ([#2260](https://github.com/fishtown-analytics/dbt/issues/2260), [#2324](https://github.com/fishtown-analytics/dbt/pull/2324))
 - Added a '--no-browser' argument to "dbt docs serve" so you can serve docs in an environment that only has a CLI browser which would otherwise deadlock dbt ([#2004](https://github.com/fishtown-analytics/dbt/issues/2004), [#2364](https://github.com/fishtown-analytics/dbt/pull/2364))
-- Relation comments supported for Snowflake tables and views. Column comments supported for tables. ([#1722](https://github.com/fishtown-analytics/dbt/issues/1722))
+- Relation comments supported for Snowflake tables and views. Column comments supported for tables. ([#1722](https://github.com/fishtown-analytics/dbt/issues/1722), [#2321](https://github.com/fishtown-analytics/dbt/pull/2321))
 
 ### Fixes
 - When a jinja value is undefined, give a helpful error instead of failing with cryptic "cannot pickle ParserMacroCapture" errors ([#2110](https://github.com/fishtown-analytics/dbt/issues/2110), [#2184](https://github.com/fishtown-analytics/dbt/pull/2184))
@@ -40,7 +40,7 @@ Contributors:
  - [@sumanau7](https://github.com/sumanau7) ([#2279](https://github.com/fishtown-analytics/dbt/pull/2279), [#2263](https://github.com/fishtown-analytics/dbt/pull/2263), [#2297](https://github.com/fishtown-analytics/dbt/pull/2297))
  - [@nickwu241](https://github.com/nickwu241) [#2339](https://github.com/fishtown-analytics/dbt/issues/2339)
  - [@Fokko](https://github.com/Fokko) [#2361](https://github.com/fishtown-analytics/dbt/pull/2361)
- - [@snowflakeseitz](https://github.com/snowflakeseitz)
+ - [@snowflakeseitz](https://github.com/snowflakeseitz) [#2321](https://github.com/fishtown-analytics/dbt/pull/2321)
 
 ## dbt 0.16.1 (April 14, 2020)
 
